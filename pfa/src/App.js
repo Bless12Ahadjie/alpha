@@ -1,15 +1,16 @@
-import './App.css';
 import {Routes, Route } from 'react-router-dom';
 import Button from './atoms/Button';
 import SignUp from './Templates/Sign Up/SignUp';
 import Signin from './Templates/SignIn/Signin';
+import Nav from './molecules/Nav';
 
 function App() {
   return (
    <>
    <Routes>
+      <Route path='/' element={ <Nav/>}/>
        
-       <Route path='/' element={ <SignUp/>}/>
+       <Route path='/register' element={ <SignUp/>}/>
        <Route path='/Sign-in' element={ <Signin/>} />
 
 
