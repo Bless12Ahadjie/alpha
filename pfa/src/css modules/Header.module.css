@@ -1,0 +1,18 @@
+.container{
+    display: inline-flex;
+    padding: 27px 49px;
+    align-items: flex-start;
+    gap: 54px;
+    background: #FFF;
+}
+
+.hold{
+    display: flex;
+    align-items: flex-start;
+    gap: 989px;
+}
+.profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
