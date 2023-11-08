@@ -3,13 +3,15 @@ import Button from './atoms/Button';
 import SignUp from './Templates/Sign Up/SignUp';
 import Signin from './Templates/SignIn/Signin';
 import Dashboard from './Templates/Dashboard/Dashboard';
+import Homepage from './Templates/Homepage/Homepage';
 
 
 function App() {
   return (
    <>
    <Routes>
-       <Route path='/' element={<Dashboard/> }/>
+       <Route path='/' element={<Homepage/>}/>
+       <Route path='/Dashboard' element={<Dashboard/> }/>
        <Route path='/register' element={ <SignUp/>}/>
        <Route path='/Sign-in' element={ <Signin/>} />
 

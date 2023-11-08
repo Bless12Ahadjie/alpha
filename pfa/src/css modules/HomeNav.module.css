@@ -1,0 +1,6 @@
+.navContainer{
+    width: 100vw;
+    height: 67px;
+    flex-shrink: 0;
+    background-color: #fff;
+}
